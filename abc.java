@@ -2,6 +2,7 @@ package Blind75;
 
 public class abc {
     public static void main(String[] args) {
+        System.out.println("Hello World!");
         Bike();
         Bike ktm = new Bike();
         ktm.name = "Duke 390";
@@ -63,3 +64,4 @@ class Child extends Parent{
             System.out.println(name+" age is "+age);
         }
     }
+
